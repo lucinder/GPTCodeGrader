@@ -1,2 +1,2 @@
 # GPTCodeGrader
-WIP - Browser extentions for static vulnerability analysis of GPT-generated code.
+WIP - Hackathon project - Browser extentions for static vulnerability analysis of GPT-generated code.
