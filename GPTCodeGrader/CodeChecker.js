@@ -22,11 +22,13 @@ let CodeGrader = function (codeContent, codeType) {
         saveAs(codeGrader.content, codeGrader.fileName)
     };
 
+    //add to this as we find additional linters for different languages
     codeGrader.grade = function () {
         switch (codeGrader.type) {
             case "JavaScript":
                 //run eslint for js code
                 execSync('nps eslint download.txt')
+            // if no matching code type was found log as unsupported code language
             default:
                 console.log("Usupported code type detected")
         }
